@@ -6,12 +6,12 @@ function isChar(type){
     
     for(var i=0; i<moduleArr.length; i++){
     
-        if(typeof moduleArr[i]==="string")
-        day2.oppChar(c)
+        if(typeof(moduleArr[i])==String)
+        day2.oppChar(moduleArr[i])
         else
-        console.log(day2.isEven(a))
+        console.log(day2.isEven(moduleArr[i]))
         if(day2.isEven=='짝수입니다!')
-        console.log(day2.square(n))
+        console.log(day2.square(moduleArr[i]))
     }
     
     }
